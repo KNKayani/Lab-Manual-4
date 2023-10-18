@@ -1,0 +1,104 @@
+KASHIF NADEEM KAYANI     456466     SEC A             
+
+
+QUESTION No.01
+//___________________________________________________________
+/*1.Write a program in C++ to find the sum of first 10 natural numbers. 
+KASHIF NADEEM KAYANI     456466     SEC A
+*/
+#include<iostream>
+using namespace std;
+int main()
+{
+		cout<<"QUESTION No.01"<<endl;
+int sum,x,y;  //declaring x,y and sum
+	for(x=1;x<=10;x++){
+     cin>>y;
+     cout<<"the sum of 10 natural numbers is"<<endl;   //output of 10 natural number
+    sum=sum+y;
+	}
+	cout<<sum<<endl;
+
+	
+ }
+
+
+
+
+QUESTION No.02
+//___________________________________________________________
+/*2.Write a C++ program to Print a Table of any Number. 
+KASHIF NADEEM KAYANI     456466     SEC A
+*/
+#include<iostream>
+using namespace std;
+int main()
+{
+		cout<<"QUESTION No.02"<<endl;
+	int a,b=1,product; //declaraing a, procduct and b=1
+	cin>>a; //input from user
+	for(int x=1;x<=10;x++){
+		product=a*b;
+	cout<<a<<"*"<<b<<"="<<product<<endl; //output in form of a*b= answer
+	 b=b+1;
+	}
+	
+} 
+
+
+
+
+QUESTION No.03
+//___________________________________________________________
+/*Write a Program to Generate Factorial.
+KASHIF NADEEM KAYANI     456466     SEC A
+*/
+#include<iostream>
+using namespace std;
+int main()
+{
+		cout<<"QUESTION No.03"<<endl;
+int A,a,b=1;  //Declaring A,a and b=1
+cin>>a>>A;  //input from user
+for (int x=1;x<=a;x++){ 
+	b=b*A;
+	A=A-1;
+    
+
+	
+   
+}
+	cout<<a<<"! ="<<b<<
+	endl;
+	
+}
+
+
+
+QUESTION No.04
+
+//__________________________________________
+/*4.Write a C++ program to generate a Fibonacci sequence up to a certain number input by the user.  
+KASHIF NADEEM KAYANI     456466     SEC A
+*/
+#include<iostream>
+using namespace std;
+int main()
+{
+
+	cout<<"QUESTION No.04"<<endl;
+int a,b,c,n;  //declaring a,b,c and n
+cin>>a>>b;
+cout<<"enter limit ";  //limit of sequence from user
+cin>>n;
+for (int x=0;x<n;x++){ 
+c=a+b;   //repeating sequence
+  a=b;
+  b=c;
+    cout<<c<< " ,";
+ }}	
+ 
+
+
+
+
